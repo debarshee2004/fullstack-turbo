@@ -1,4 +1,9 @@
 {
+  "content": ["./src/**/*.{html,js}"],
+  "theme": {
+    "extend": {}
+  },
+  "plugins": [],
   "extends": "@repo/typescript-config/react-library.json",
   "compilerOptions": {
     "outDir": "dist"
